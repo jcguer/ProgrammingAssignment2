@@ -4,7 +4,7 @@
 
 ## makeCacheMatrix creates a list of functions 
 ## ($get, $setinverse, $getinverse) that
-## that cache the inverse of a matrix 
+## cache the inverse of a matrix 
 
 makeCacheMatrix <- function(x = matrix()) {
       
