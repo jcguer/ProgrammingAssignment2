@@ -1,8 +1,9 @@
 ## The functions return the inverse of a matrix either 
-## from a cache or by calculating and then cacheing 
-## it.
+## from a cache or by calculating the inverse and then 
+## cacheing it.
 
 ## makeCacheMatrix creates a list of functions 
+## ($get, $setinverse, $getinverse) that
 ## that cache the inverse of a matrix 
 
 makeCacheMatrix <- function(x = matrix()) {
